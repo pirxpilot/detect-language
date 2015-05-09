@@ -35,8 +35,8 @@ MIT © [code42day](https://code42day.com)
 [npm-image]: https://img.shields.io/npm/v/detect-language.svg
 [npm-url]: https://npmjs.org/package/detect-language
 
-[travis-url]: https://travis-ci.org/pirxpilot/detect-language
-[travis-image]: https://img.shields.io/travis/pirxpilot/detect-language.svg
+[travis-url]: https://travis-ci.org/code42day/detect-language
+[travis-image]: https://img.shields.io/travis/code42day/detect-language.svg
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/detect-language.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/detect-language
+[gemnasium-image]: https://img.shields.io/gemnasium/code42day/detect-language.svg
+[gemnasium-url]: https://gemnasium.com/code42day/detect-language

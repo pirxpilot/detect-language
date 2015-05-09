@@ -7,7 +7,7 @@
     "email": "pirxpilot@code42day.com",
     "url": "https://code42day.com"
   },
-  "repository": "pirxpilot/detect-language",
+  "repository": "code42day/detect-language",
   "license": "MIT",
   "keywords": [
     "detect-language",
