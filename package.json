@@ -1,6 +1,6 @@
 {
   "name": "detect-language",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds the best matching language from Accept-Language header.",
   "author": {
     "name": "Damian Krzeminski",
