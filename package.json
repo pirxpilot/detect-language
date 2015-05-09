@@ -1,0 +1,30 @@
+{
+  "name": "detect-language",
+  "version": "0.0.0",
+  "description": "Finds the best matching language from Accept-Language header.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "pirxpilot/detect-language",
+  "license": "MIT",
+  "keywords": [
+    "detect-language",
+    "i18n",
+    "l10n",
+    "localization",
+    "language",
+    "connect",
+    "middleware"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
+  "scripts": {
+    "test": "make check"
+  }
+}
