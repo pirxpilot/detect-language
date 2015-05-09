@@ -18,7 +18,10 @@
     "connect",
     "middleware"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^2.1.3",
+    "parse-accept-language": "^1.0.0"
+  },
   "devDependencies": {
     "jshint": "^2.7.0",
     "mocha": "^2.2.4",
