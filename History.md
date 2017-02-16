@@ -1,4 +1,9 @@
 
+1.1.0 / 2017-02-16
+==================
+
+ * mark language selected as defaylt (when no matches find)
+
 1.0.1 / 2015-05-08
 ==================
 
