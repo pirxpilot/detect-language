@@ -20,7 +20,8 @@ describe('detect-language node module', function () {
       req.should.have.property('parsedLang', {
         language: 'en',
         value: 'en-US',
-        region: 'US'
+        region: 'US',
+        q: -1
       });
       done();
     });
