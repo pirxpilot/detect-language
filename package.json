@@ -4,10 +4,10 @@
   "description": "Finds the best matching language from Accept-Language header.",
   "author": {
     "name": "Damian Krzeminski",
-    "email": "pirxpilot@code42day.com",
-    "url": "https://code42day.com"
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
   },
-  "repository": "code42day/detect-language",
+  "repository": "pirxpilot/detect-language",
   "license": "MIT",
   "keywords": [
     "detect-language",
