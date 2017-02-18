@@ -1,4 +1,10 @@
 
+1.1.1 / 2017-02-18
+==================
+
+ * transfer repository to pirxpilot
+ * update Travis CI config
+
 1.1.0 / 2017-02-16
 ==================
 
