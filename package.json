@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "debug": "~4",
-    "parse-accept-language": "^1.0.0"
+    "parse-accept-language": "~2"
   },
   "devDependencies": {
     "jshint": "~2",
