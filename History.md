@@ -1,4 +1,11 @@
 
+2.0.0 / 2020-03-29
+==================
+
+ * rewrite in ES6
+ * update node version for Travis CJ
+ * update dependencies
+
 1.1.1 / 2017-02-18
 ==================
 
