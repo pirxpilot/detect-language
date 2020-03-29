@@ -1,6 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Dependency Status][deps-image]][deps-url]
+[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # detect-language
 
@@ -38,5 +39,8 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 [travis-url]: https://travis-ci.org/pirxpilot/detect-language
 [travis-image]: https://img.shields.io/travis/pirxpilot/detect-language.svg
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/detect-language.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/detect-language
+[deps-image]: https://img.shields.io/david/pirxpilot/detect-language.svg
+[deps-url]: https://david-dm.org/pirxpilot/detect-language
+
+[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/detect-language.svg
+[deps-dev-url]: https://david-dm.org/pirxpilot/detect-language?type=dev
