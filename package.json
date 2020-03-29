@@ -19,13 +19,13 @@
     "middleware"
   ],
   "dependencies": {
-    "debug": "~2",
+    "debug": "~4",
     "parse-accept-language": "^1.0.0"
   },
   "devDependencies": {
-    "jshint": "^2.7.0",
-    "mocha": "~3",
-    "should": "~11"
+    "jshint": "~2",
+    "mocha": "~7",
+    "should": "~13"
   },
   "scripts": {
     "test": "make check"
