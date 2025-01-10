@@ -1,7 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][build-image]][build-url]
 [![Dependency Status][deps-image]][deps-url]
-[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # detect-language
 
@@ -33,14 +32,12 @@ app.use(require('./src/i18n/detect-language')(locale));
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/detect-language.svg
+[npm-image]: https://img.shields.io/npm/v/detect-language
 [npm-url]: https://npmjs.org/package/detect-language
 
-[travis-url]: https://travis-ci.org/pirxpilot/detect-language
-[travis-image]: https://img.shields.io/travis/pirxpilot/detect-language.svg
+[build-url]: https://github.com/pirxpilot/detect-language/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/detect-language/check.yaml?branch=main
 
-[deps-image]: https://img.shields.io/david/pirxpilot/detect-language.svg
-[deps-url]: https://david-dm.org/pirxpilot/detect-language
+[deps-image]: https://img.shields.io/librariesio/release/npm/detect-language
+[deps-url]: https://libraries.io/npm/detect-language
 
-[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/detect-language.svg
-[deps-dev-url]: https://david-dm.org/pirxpilot/detect-language?type=dev

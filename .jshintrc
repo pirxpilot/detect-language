@@ -5,12 +5,11 @@
   "eqnull": true,
   "immed": true,
   "latedef": true,
-  "mocha" : true,
   "newcap": true,
   "noarg": true,
   "node": true,
   "sub": true,
   "undef": true,
   "unused": true,
-  "esversion": 9
+  "esversion": 11
 }
