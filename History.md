@@ -1,4 +1,11 @@
 
+2.1.0 / 2025-01-09
+==================
+
+ * modernize code
+ * replace mocha/should with node:test and node:assert
+ * use github actions instead of Travis CI
+
 2.0.1 / 2020-03-29
 ==================
 
