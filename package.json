@@ -26,9 +26,7 @@
     "parse-accept-language": "~2"
   },
   "devDependencies": {
-    "jshint": "~2",
-    "mocha": "~7",
-    "should": "~13"
+    "@pirxpilot/jshint": "~3"
   },
   "scripts": {
     "test": "make check"
