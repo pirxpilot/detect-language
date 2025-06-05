@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
-const detectLanguage = require('../');
+const detectLanguage = require('../lib/detect-language');
 
 function request(language) {
   return {
