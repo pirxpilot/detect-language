@@ -1,6 +1,6 @@
 {
   "name": "detect-language",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Finds the best matching language from Accept-Language header.",
   "exports": "./lib/detect-language.js",
   "author": {
