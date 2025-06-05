@@ -2,6 +2,7 @@
   "name": "detect-language",
   "version": "2.1.0",
   "description": "Finds the best matching language from Accept-Language header.",
+  "exports": "./lib/detect-language.js",
   "author": {
     "name": "Damian Krzeminski",
     "email": "pirxpilot@furkot.com",
@@ -26,13 +27,12 @@
     "parse-accept-language": "~2"
   },
   "devDependencies": {
-    "@pirxpilot/jshint": "~3"
+    "@biomejs/biome": "^1.9.4"
   },
   "scripts": {
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }
