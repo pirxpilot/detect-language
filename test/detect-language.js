@@ -94,3 +94,56 @@ test('select prefix match if exact match does not exist', (t, done) => {
     done();
   });
 });
+
+test('skip detection if req.lang is already set', (t, done) => {
+  const dl = detectLanguage({
+    supportedLanguages: ['de', 'pl'],
+    defaultLanguage: 'en-US'
+  });
+  const req = request('de-DE;q=0.8,pl;q=0.6');
+  req.lang = 'fr';
+  dl(req, {}, () => {
+    t.assert.equal(req.lang, 'fr');
+    t.assert.equal(req.parsedLang, undefined);
+    done();
+  });
+});
+
+test('handle request with no accept-language header', (t, done) => {
+  const dl = detectLanguage({
+    supportedLanguages: ['de', 'pl'],
+    defaultLanguage: 'en-US'
+  });
+  const req = {
+    get headers() {
+      return {};
+    }
+  };
+  dl(req, {}, () => {
+    t.assert.equal(req.lang, 'en-US');
+    t.assert.deepEqual(req.parsedLang, {
+      language: 'en',
+      value: 'en-US',
+      region: 'US',
+      q: -1
+    });
+    done();
+  });
+});
+
+test('handle language without region', (t, done) => {
+  const dl = detectLanguage({
+    supportedLanguages: ['de', 'pl'],
+    defaultLanguage: 'en'
+  });
+  const req = request('en;q=0.9,pl;q=0.6');
+  dl(req, {}, () => {
+    t.assert.equal(req.lang, 'en');
+    t.assert.deepEqual(req.parsedLang, {
+      language: 'en',
+      value: 'en',
+      region: undefined
+    });
+    done();
+  });
+});
