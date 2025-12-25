@@ -2,6 +2,7 @@
   "name": "detect-language",
   "version": "2.1.1",
   "description": "Finds the best matching language from Accept-Language header.",
+  "type": "module",
   "exports": "./lib/detect-language.js",
   "author": {
     "name": "Damian Krzeminski",
@@ -24,7 +25,7 @@
   ],
   "dependencies": {
     "debug": "~4",
-    "parse-accept-language": "~2"
+    "parse-accept-language": "~3"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.10"
