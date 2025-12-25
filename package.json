@@ -27,7 +27,7 @@
     "parse-accept-language": "~2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "2.3.10"
   },
   "scripts": {
     "test": "make check"
